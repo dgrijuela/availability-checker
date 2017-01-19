@@ -1,0 +1,15 @@
+{
+  "name": "Availability Checker",
+  "description": "Heroku app (free) to send an email when any of the URLs listed is offline",
+  "repository": "https://github.com/redradix/availability-checker",
+  "addons": [
+    "scheduler:standard",
+    "sendgrid"
+  ],
+  "env": {
+    "SENDER_NAME": "Availability Checker",
+    "URLS": "",
+    "EMAILS": "",
+    "SENDGRID_API_KEY": ""
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "availability-checker",
+  "description": "Heroku app (free) to send an email when any of the URLs listed is offline",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Daniel Grijuela",
+  "license": "MIT",
+  "dependencies": {
+    "es6-promise": "^4.0.5",
+    "isomorphic-fetch": "^2.2.1",
+    "sendgrid": "^4.7.1"
+  }
+}
